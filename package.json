@@ -1,6 +1,6 @@
 {
   "name": "juramento",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Just user modeled reactivity across markup events natively typed observables (DOM library)",
   "main": "./dist/index.js",
   "type": "module",
