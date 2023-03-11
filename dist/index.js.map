@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.js", "../src/_constants.js"],
+  "sourcesContent": ["import * as _constants from './_constants.js'\nconst result = { ..._constants }\nexport default result\n", "export const UNSUBSCRIBE = Symbol()\n"],
+  "mappings": "4rBAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GCAA,IAAAI,EAAA,GAAAC,EAAAD,EAAA,iBAAAE,IAAO,IAAMA,EAAc,OAAO,EDClC,IAAMC,EAASC,EAAA,GAAKC,GACbC,EAAQH",
+  "names": ["src_exports", "__export", "src_default", "__toCommonJS", "constants_exports", "__export", "UNSUBSCRIBE", "result", "__spreadValues", "constants_exports", "src_default"]
+}

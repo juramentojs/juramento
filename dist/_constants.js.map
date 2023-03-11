@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/_constants.js"],
+  "sourcesContent": ["export const UNSUBSCRIBE = Symbol()\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,iBAAAE,IAAA,eAAAC,EAAAH,GAAO,IAAME,EAAc,OAAO",
+  "names": ["constants_exports", "__export", "UNSUBSCRIBE", "__toCommonJS"]
+}

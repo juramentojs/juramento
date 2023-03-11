@@ -1,0 +1,37 @@
+{
+  "name": "juramento",
+  "version": "0.1.0",
+  "description": "Just user modeled reactivity across markup events natively typed observables (DOM library)",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "yarn clean && yarn format && yarn test && yarn build",
+    "test": "node ./bin/test.js | colortape",
+    "format": "prettier -w . '!*{LICENSE,yarn}*'",
+    "clean": "rm -fr ./dist/*",
+    "build": "esbuild ./src/*.js --outdir=dist --bundle --ignore-annotations --minify --sourcemap --platform=node --target=chrome58,firefox57,safari11,edge16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juramentojs/juramento.git"
+  },
+  "keywords": [
+    "DOM",
+    "frp",
+    "functional",
+    "reactive"
+  ],
+  "author": "juramentojs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/juramentojs/juramento/issues"
+  },
+  "homepage": "https://github.com/juramentojs/juramento#readme",
+  "devDependencies": {
+    "colortape": "^0.1.2",
+    "esbuild": "^0.17.11",
+    "prettier": "^2.8.4",
+    "rimraf": "^4.4.0",
+    "tape": "^5.6.3"
+  }
+}
