@@ -1,1 +1,1 @@
-export * as _constants from './_constants.js'
+export * from './_constants.js'

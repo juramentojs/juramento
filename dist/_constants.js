@@ -1,2 +1,3 @@
-var o=Symbol();export{o as UNSUBSCRIBE};
+var o = Symbol()
+export { o as UNSUBSCRIBE }
 //# sourceMappingURL=_constants.js.map
